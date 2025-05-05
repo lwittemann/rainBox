@@ -1,4 +1,7 @@
-Hello! This is my repository for some of the files I created for my rainBox project. The rainBox is a Arduino based box which generates colored noise for sleeping. For this, I used an Arduino nano every to generate the samples, a MCP 4725 DAC to convert the samples to an analog waveform, two TL072 op-amp chips to buffer and filter the audio, and a LM 386 to amplify the signal for a speaker. The files contained are as follows:
+Hello! This is my repository for some of the files I created for my rainBox project. The rainBox is a Arduino based box which generates colored noise for sleeping. For this, I used an Arduino nano every to generate the samples, a MCP 4725 DAC to convert the samples to an analog waveform, two TL072 op-amp chips to buffer and filter the audio, and a LM 386 to amplify the signal for a speaker. More details for the project can be found on my website: 
+https://inprogressucsd.blogspot.com/2025/05/rainbox-truly-random-white-noise-as.html 
+
+The files contained are as follows:
 
 1. gaussianSampleGeneration --  MATLAB script where I investigated the generation of Gaussian random varibles using uniformly distributed ones
 2. rainNoiseFilter -- MATLAB script where I designed some filters to create synthetic rain noise using white noise as an input
